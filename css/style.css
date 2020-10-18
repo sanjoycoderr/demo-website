@@ -1,0 +1,116 @@
+
+/*body top border*/
+.top_border{
+  border-top: 5px solid  #29ca8e !important;
+}
+/*navbar background color*/
+.custom{
+	background-color: white !important;
+}
+/*navbar hover color*/ 
+.nav-item a:hover{
+	background-color: #29ca8e !important;
+	color: white !important;
+	transition:0.5s;
+}
+/*navbar brand color*/
+.navbar-brand{
+  color:  #29ca8e !important;
+  font-weight: bold;
+}
+/*call fontawsome icon*/
+.fa-phone-volume{
+	background-color: #29ca8e !important;
+	padding: 12px;
+	border-radius: 50%;
+	color: white;
+}
+img{
+	width: 100%;
+}
+.sliderr{
+	width: 100%;
+
+}
+html {
+/*overflow: scroll;
+overflow-x: hidden;*/
+scroll-behavior: smooth;
+
+}
+
+.center{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.hero-img{
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.first{
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	background-color: #29ca8e;
+	color:white;
+}
+figure span{
+	float: left;
+}
+.clear1{
+	clear: both;
+}
+@media only screen and (min-width:1110px) {
+.signup-form{
+border-radius: 50%;
+width: 450px;
+height: 450px;
+background-color: #252020;
+position: absolute;
+}
+.divone
+{
+	position: relative;
+	margin-top: 150px;
+}
+}
+@media only screen and (max-width: 768px) {
+.hero-text{
+	font-size: 16px;
+}
+}
+.inner{
+	overflow: hidden;
+}
+.inner img{
+	transition: 1.0s;
+
+}
+.inner:hover img{
+	transition: 1.0s;
+	transform: scale(1.5);
+}
+.card-link:hover{
+	
+	color: #29ca8e !important;
+	transition:0.5s;
+}
+.item-img img{
+	width: 60px !important;
+	height: 60px;
+	border-radius: 50%;
+	float: left;
+}
+.author{
+	float: right;
+}
+.nav-link.active{
+	background-color: #29ca8e !important;
+	color: white !important;
+}
